@@ -1,0 +1,488 @@
+#root {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.content {
+    background-color: #FDFBF5;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.login-content {
+    height: 100%;
+    background-image: url(./imgs/Cover.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-item {
+    width: 500px;
+    height: 550px;
+    margin-top: 200px;
+    margin-left: 600px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd8d8;
+    background-color: #FFFFFF;
+    font-family: "微軟正黑體";
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.login-item-title {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.register {
+    width: 500px;
+    height: 600px;
+    margin-top: 200px;
+    margin-left: 600px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd8d8;
+    background-color: #FFFFFF;
+    font-family: "微軟正黑體";
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.header .header-logo-button {
+    margin-left: 60px;
+    margin-top: 5px;
+    align-content: center;
+}
+
+.header .header-logo-text {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Verdana;
+    color: #2F2F2F;
+}
+
+.header .avatar {
+    margin-top: 5px;
+    float: right;
+    margin-right: 100px;
+}
+
+.overview {
+    margin-left: 250px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.overview .overview-text {
+    font-size: 18px;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.index-item {
+    width: 280px;
+    height: 120px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #dbd8d8;
+    background-color: #FFFFFF;
+    font-family: "微軟正黑體";
+    display: inline-block;
+    
+
+}
+
+.index-item-classText {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: "#000000";
+}
+
+.index-item-img {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.index-item-AvatarSVG {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+.index-item-Avatar {
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;
+    display: inline;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    color: "#000000";
+}
+
+.AddClass-item {
+    width: 500px;
+    height: 550px;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd8d8;
+    background-color: #FFFFFF;
+    font-family: "微軟正黑體";
+    display: inline-block;
+    white-space: nowrap;
+
+}
+
+.AddClass-item .AddClass-item-text {
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 25px;
+    white-space: nowrap;
+}
+
+.AddClass-item-className {
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.AddClass-item-checkBox {
+    margin-top: 60px;
+}
+
+.AddClass-item-button {
+    margin-top: 60px;
+}
+
+.content-view {
+    background-color: #FDFBF5;
+}
+
+.ClassPage-Leftscreen {
+    width: 350px;
+    height: 850px;
+    position: fixed;
+    border-radius: 20px;
+    top: 70px;
+    left: 0px;
+    background: #FFF7DC;
+}
+
+.ClassPage-Leftscreen-ClassName {
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.ClassPage-Leftscreen-TeacherName {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ClassPage-Leftscreen-ColorButton2 {
+    width: 350px;
+    height: 70px;
+}
+
+.ClassPage-Leftscreen-ColorButton3 {
+    width: 350px;
+    height: 40px;
+}
+
+.renderItem {
+    /*background:#f6d66e;*/
+    top: 75px;
+    right: 0px;
+    width: 1350px;
+    height: 850px;
+    position: absolute;
+}
+
+.CassPage-words {
+    margin-left: 100px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.CassPage-words .CassPage-words-text {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.CassPage-test-title {
+    width: auto;
+    height: 60px;
+    margin-left: 10px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.StudentTest-Item {
+    width: 1000px;
+    height: 500px;
+    margin-left: 180px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd8d8;
+    background-color: #FFFFFF;
+    font-family: "微軟正黑體";
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.CassPage-test-title-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ClassPage-WordList {
+    width: 1150px;
+    height: 150px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd8d8;
+    background-color: #FFFFFF;
+    font-family: "微軟正黑體";
+
+}
+
+.ClassPage-WordList-star {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    line-height: 150px;
+}
+
+.ClassPage-WordList-word {
+    display: inline-block;
+    position: absolute;
+    width: 850px;
+    height: 150px;
+}
+
+.ClassPage-WordList-img {
+    float: right;
+    margin-right: 25px;
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.ClassPage-WordList-word-vec {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.ClassPage-WordList-word-Verb {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #a8a8a8;
+}
+
+.ClassPage-WordList-word-meaning {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.AddWordList-title {
+    margin-top: 25px;
+    width: 800px;
+    height: 150px;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+.AddWordList-title-titleText {
+    font-weight: bold;
+    font-size: 24px;
+    width: 550px;
+    height: 70px;
+    display: inline-block;
+}
+
+.AddWordList-title-titleName {
+    font-weight: bold;
+    font-size: 22px;
+    width: 550px;
+    height: 70px;
+    display: inline-block;
+}
+
+.AddWordList-title-AddListButton {
+    font-weight: bold;
+    font-size: 18px;
+    width: 180px;
+    height: 150px;
+    float: right;
+    margin-right: 25px;
+
+}
+
+.AddWordListItem {
+    width: 800px;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd8d8;
+    background-color: #FFFFFF;
+    font-family: "微軟正黑體";
+}
+
+.AddWordListItem-trashCan {
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+.AddWordListItem-Classimg {
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin-right: 60px;
+}
+
+.MemberList {
+    width: 1150px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd8d8;
+    background-color: #FFFFFF;
+    font-family: "微軟正黑體";
+}
+
+.MemberList-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+}
+
+.MemberList-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #a8a8a8;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.MemberList-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.MemberList-TCimg {  
+    width: 40px;
+    height: 40px;
+    float: right;
+
+}
+
+.MemberList-link {
+    width: 900px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.StudentScore-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.StudentScore-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #a8a8a8;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.StudentScore-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.StudentScore-LessonText {
+    display: inline-block;
+    margin-right: 30px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.StudentScore-Score {
+    margin-right: 80px;
+    float: right;
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.PersonalInfo-item {
+    width: 500px;
+    height: 550px;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd8d8;
+    background-color: #FFFFFF;
+    font-family: "微軟正黑體";
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.PersonalInfo-item-title {
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.PersonalInfo-item-text {
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+}
