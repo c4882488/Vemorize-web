@@ -1,71 +1,41 @@
-# Getting Started with Create React App
+# [Vemorize-web](https://github.com/c4882488/Vemorize-web)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+單字背誦網站
 
-## Available Scripts
+-------- 
 
-In the project directory, you can run:
+## 介紹
 
-### `npm start`
+針對孩童製作一款簡易好上手的背誦單字小幫手，對於兒童不需要太複雜的功能，在背誦的時候也可以搭配我們製作的遊戲進行測驗，開發出app。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+之後將App轉為電腦版，以班級形式做管理，在班級單字集與學生做CRUD，。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 網站介面
 
-### `npm run build`
+| <img title="" src="https://raw.githubusercontent.com/c4882488/c4882488/main/2023/02/06-12-33-44-Screenshot%202023-02-06%20122507.jpg" alt="Screenshot 2023-02-06 122507.jpg" width="281" data-align="center"> | <img title="" src="https://raw.githubusercontent.com/c4882488/c4882488/main/2023/02/06-12-34-36-Screenshot%202023-02-06%20122821.jpg" alt="Screenshot 2023-02-06 122821.jpg" width="284" data-align="center"> |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| 班級首頁                                                                                                                                                                                                          | 班級成員                                                                                                                                                                                                          |
+| <img title="" src="https://raw.githubusercontent.com/c4882488/c4882488/main/2023/02/06-12-33-56-Screenshot%202023-02-06%20122542.jpg" alt="Screenshot 2023-02-06 122542.jpg" width="283" data-align="center"> | <img title="" src="https://raw.githubusercontent.com/c4882488/c4882488/main/2023/02/06-12-34-05-Screenshot%202023-02-06%20122555.jpg" alt="Screenshot 2023-02-06 122555.jpg" width="283" data-align="center"> |
+| 單字集畫面                                                                                                                                                                                                         | 修改單字集                                                                                                                                                                                                         |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 如何運行
 
-### `npm run eject`
+本專案包含[後端](https://github.com/c4882488/Vemorize-web/tree/main/BackEnd)與[資料庫](https://github.com/c4882488/Vemorize-web/tree/main/BackEnd/SQL)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+開始專案
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
+```
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Vemorize-web
+---
